@@ -1,0 +1,147 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#signup-form {
+    flex: 1;
+    padding: 50px 0;
+}
+
+.form-wrapper {
+    max-width: 500px;
+    margin: 55px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-wrapper h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #f76900;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #f76900;
+}
+
+.input-icon {
+    position: relative;
+}
+
+.input-icon input {
+    width: 100%;
+    padding: 10px 40px 11px 28px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.input-icon svg {
+    position: absolute;
+    left: 4px;
+    top: 43%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    fill: #f76900;
+}
+.input-icon .phone-icon {
+    position: absolute;
+    left: 4px;
+    top: 30%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    fill: #f76900;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #f76900;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    background: #f76900;
+}
+
+.login-link {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.login-link a {
+    color: #f76900;
+    text-decoration: none;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
+.form-group input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.form-group label[for="terms"] {
+    display: inline-block;
+    color: #333;
+}
+
+.form-group label[for="terms"] a {
+    color: #f76900;
+    text-decoration: none;
+}
+
+.form-group label[for="terms"] a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .form-wrapper {
+        padding: 20px;
+    }
+
+    .input-icon input {
+        padding: 10px 40px 10px 26px;
+    }
+
+    .btn {
+        padding: 8px;
+        font-size: 14px;
+    }
+}
+
+footer {
+    background: black;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: auto;
+}
+
+.social-links a {
+    margin: 0 10px;
+    color: #fff;
+}
+
+.social-links svg {
+    width: 24px;
+    height: 24px;
+}
